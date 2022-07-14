@@ -4,10 +4,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.view.menu.MenuView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import dev.beryl.contactreader.databinding.ContactListItemBinding
+import kotlin.coroutines.coroutineContext
 
 class DataRvAdapter( var contactList: List<Datainformation>):
 
@@ -46,4 +48,17 @@ class DataRvAdapter( var contactList: List<Datainformation>):
 class DataViewHolder(var binding: ContactListItemBinding)
     :RecyclerView.ViewHolder(binding.root){
 
-}
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
